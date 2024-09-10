@@ -150,3 +150,11 @@ header{
 .about-img img{
     border-radius: 0.5rem;
 }
+.about-text h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.about-text p{
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1.1rem;
+}
