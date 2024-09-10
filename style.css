@@ -144,7 +144,6 @@ header{
 .about{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(17rem,auto));
-    align-items: center;
     gap: 1.5rem;
 }
 .about-img img{
@@ -157,4 +156,11 @@ header{
 .about-text p{
     font-size: 0.938rem;
     margin: 0.5rem 0 1.1rem;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
 }
