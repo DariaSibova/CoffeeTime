@@ -257,3 +257,24 @@ header{
     background: var(--second-color);
     transition: 0.2s all linear;
 }
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,auto));
+    gap: 1.5rem;
+    
+}
+.footer-box h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.footer-box p{
+    font-size: 0.938rem;
+    margin-bottom: 10px;
+
+}
+.social{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
