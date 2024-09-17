@@ -41,8 +41,12 @@ header{
     align-items: center;
     padding: 18px 100px;
     transition: 0.5s linear;
-    background: var(--text-color);
+    
 
+}
+header.shadow{
+    background: var(--text-color);
+    box-shadow: var(--box-shadow);
 }
 .logo img{
     width: 60px;
@@ -310,5 +314,11 @@ header{
 }
 .contact i{
     font-size: 20px;
-    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.copyright{
+    padding: 20px;
+    text-align: center;
+    background: var(--second-color);
 }
