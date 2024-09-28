@@ -333,3 +333,23 @@ header.shadow{
         font-size: 2.4rem;
     }
 }
+@media(max-width:991px) {
+    header{
+        padding: 16px 4%;
+    }
+    section{
+        padding: 50px 4%;
+    }
+    .home-text h1{
+        font-size: 2rem;
+    }
+}
+@media(max-width:768px) {
+    header{
+        padding: 12px 4%;
+    }
+    #menu-icon{
+        display: initial;
+    }
+    
+}
