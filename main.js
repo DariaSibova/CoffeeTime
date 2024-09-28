@@ -12,6 +12,11 @@ document.querySelector('#menu-icon').onclick = () => {
     search.classList.remove('active');
 }
 
+window.onscroll = () =>{
+    navbar.classList.remove('active');
+    search.classList.remove('active');
+}
+
 
 
 let header = document.querySelector('header');
