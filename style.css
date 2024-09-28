@@ -373,4 +373,7 @@ header.shadow{
     .navbar.active{
         top: 100%;
     }
+    .about{
+        align-items: center;
+    }
 }
