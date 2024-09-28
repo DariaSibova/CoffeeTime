@@ -351,5 +351,17 @@ header.shadow{
     #menu-icon{
         display: initial;
     }
-    
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: var(--second-color);
+        row-gap: 1.4rem;
+        padding: 20px;
+        transition: 0.3s;
+        text-align: center;
+    }
 }
