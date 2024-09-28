@@ -364,4 +364,10 @@ header.shadow{
         transition: 0.3s;
         text-align: center;
     }
+    .navbar a{
+        color:var(--text-color)
+    }
+    .navbar a:hover{
+        color: var(--bg-color);
+    }
 }
