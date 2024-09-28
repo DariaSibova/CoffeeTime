@@ -387,4 +387,17 @@ header.shadow{
     .home-text{
         padding-top: 15px;
     }
+    .home-text h1{
+        font-size: 1.4rem ;
+    }
+    .home-text p{
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    .about-img{
+        order: 2;
+    }
+    .about-text{
+        text-align: center;
+    }
 }
