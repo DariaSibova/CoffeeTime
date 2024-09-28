@@ -353,7 +353,7 @@ header.shadow{
     }
     .navbar{
         position: absolute;
-        top: 100%;
+        top: -570px;
         left: 0;
         right: 0;
         display: flex;
@@ -369,5 +369,8 @@ header.shadow{
     }
     .navbar a:hover{
         color: var(--bg-color);
+    }
+    .navbar.active{
+        top: 100%;
     }
 }
