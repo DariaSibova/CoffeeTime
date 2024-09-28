@@ -322,3 +322,14 @@ header.shadow{
     text-align: center;
     background: var(--second-color);
 }
+@media(max-width:1058px) {
+    header{
+        padding: 16px 60px;
+    }
+    section{
+        padding: 50px 60px;
+    }
+    .home-text h1{
+        font-size: 2.4rem;
+    }
+}
