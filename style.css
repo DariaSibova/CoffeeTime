@@ -400,4 +400,10 @@ header.shadow{
     .about-text{
         text-align: center;
     }
+    .about-text h2{
+        font-size: 1.2rem;
+    }
+    .heading h2 {
+        font-size: 1.2rem;
+    }
 }
