@@ -377,3 +377,14 @@ header.shadow{
         align-items: center;
     }
 }
+@media(max-width: 360px) {
+    header{
+        padding: 11px 4%;
+    }
+    .logo img{
+        width: 45px;
+    }
+    .home-text{
+        padding-top: 15px;
+    }
+}
